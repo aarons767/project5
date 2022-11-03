@@ -1,10 +1,17 @@
 
 public class Triangle extends Shape{
 
+	private double baseLength;
+	private double height;
+	
+	/**
+	 * Computes the area of this Triangle
+	 * @return the area of this Triangle
+	 */
 	@Override
 	public double computeArea() {
-		// TODO Auto-generated method stub
-		return 0;
+
+		return (1/2.0)  * baseLength * height;
 	}
 
 }

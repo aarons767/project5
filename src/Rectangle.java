@@ -1,10 +1,17 @@
 
 public class Rectangle extends Shape {
-
+	
+	private double length;
+	private double width;
+	
+	/**
+	 * Computes the area of this Rectangle and
+	 * returns it
+	 */
 	@Override
 	public double computeArea() {
-		// TODO Auto-generated method stub
-		return 0;
+
+		return length * width;
 	}
 
 }

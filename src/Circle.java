@@ -1,10 +1,14 @@
 
 public class Circle extends Shape{
-
+	
+	private double radius;
+	
+	/**
+	 * Computes the area of this Circle
+	 */
 	@Override
 	public double computeArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (Math.PI) * Math.pow(radius, 2);
 	}
 
 }
