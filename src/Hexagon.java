@@ -1,5 +1,5 @@
 
-public class Hexagon extends Shape{
+public class Hexagon extends Shapes{
 	
 	private double sideLength;
 	

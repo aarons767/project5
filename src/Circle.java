@@ -1,5 +1,5 @@
 
-public class Circle extends Shape{
+public class Circle extends Shapes{
 	
 	private double radius;
 	

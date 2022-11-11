@@ -1,5 +1,5 @@
 
-public class Triangle extends Shape{
+public class Triangle extends Shapes{
 
 	private double baseLength;
 	private double height;

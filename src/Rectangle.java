@@ -1,5 +1,5 @@
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shapes {
 	
 	private double length;
 	private double width;
@@ -13,5 +13,7 @@ public class Rectangle extends Shape {
 
 		return length * width;
 	}
+	
+	
 
 }
